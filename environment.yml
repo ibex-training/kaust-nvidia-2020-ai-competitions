@@ -1,0 +1,19 @@
+name: null
+
+channels:
+  - blazingsql
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - blazingsql=0.16
+  - cudatoolkit=11.0
+  - jupyterlab=2.2
+  - jupyterlab-git=0.23
+  - pip=20.2
+  - pip:
+    - -r file:requirements.txt
+  - python=3.8
+  - rapids=0.16
